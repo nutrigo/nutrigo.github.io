@@ -59,7 +59,7 @@
 				<script type="text/babel">
 			
 					var p1="Do you like helping your community? Do you want to save a life? Do you care about world problems? Nutri-Go is the orginization for you. Nutri-Go is a nonprofit organization built upon providing food desert communities with the nutrients not available to them. The core of Nutri-Go are the volunteers. The volunteers provide the free transportation service that our organization relies on to provide our customers with the nutricious food they depend on. Your help could save a life. Volunteer Today!"
-					var p2=" The core of Nutri-Go are the volunteers. The volunteers provide the free transportation service that our organization relies on to provide our customers with the nutricious food they depend on. Your help could save a life. Volunteer Today! With advantage opportunities are limitless,but with disadvantage the individual is restricted. Many people may believe that store bought meals are efficient and suitable but the best way to incorporate proper nutrition into a regular diet is to have access to fruits and vegetables. Many urban areas have little to no access to grocery stores or even fresh foods. What this means is that many people in these areas are unable to get proper foods. Lower class citizens residing in poor cities are especially at disadvantage as supermarket chains avoid low income neighborhoods. This being said the correlation of nutrient filled meals and low poverty hosehold is important and Nutrigro provides the service of transporting nutritous foods. Some of the foods are listed below."
+					var p2="With advantage opportunities are limitless,but with disadvantage the individual is restricted. Many people may believe that store bought meals are efficient and suitable but the best way to incorporate proper nutrition into a regular diet is to have access to fruits and vegetables. Many urban areas have little to no access to grocery stores or even fresh foods. What this means is that many people in these areas are unable to get proper foods. Lower class citizens residing in poor cities are especially at disadvantage as supermarket chains avoid low income neighborhoods. This being said the correlation of nutrient filled meals and low poverty hosehold is important and Nutrigro provides the service of transporting nutritous foods. Some of the foods are listed below."
 			
 					class Paragraph extends React.Component {
 						render() {
@@ -89,12 +89,14 @@
 					ReactDOM.render(
 						<div>
 							<a href="#" class="image featured"><img src="images/hands.jpg" height="200" alt="" /></a>
-							<header>
-								<h2><strong> Volunteer </strong></h2>
+							<div style={{ padding: 20}}>
+								<header>
+									<h2 style={{ textAlign: 'center' }}><strong> Volunteer </strong></h2>
 								</header>
-							<Paragraph text={p1} />
-							<Paragraph text={p2} />
-							<Button1 buttonText="Volunteer Today!"/>
+								<Paragraph text={p1} />
+						 		<Paragraph text={p2} />
+								<Button1 buttonText="Volunteer Today!"/>
+							</div>
 						</div>,
 					  document.querySelector("#react-container")
 					);
