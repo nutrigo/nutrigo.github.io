@@ -1524,7 +1524,7 @@ input, select, textarea {
 			position: relative;
 			top: 0.5em;
 		}
-
+		/* 2em to 1em*/
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
