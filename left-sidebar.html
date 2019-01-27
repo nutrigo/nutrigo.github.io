@@ -13,8 +13,27 @@
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+	</style>
+	
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
 	</head>
-	<body class="left-sidebar is-preload">
+	<!---<body class="left-sidebar is-preload">-->
+	<body>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -109,13 +128,186 @@
 							<h1>about ou #4</h1>
 							<Paragraph text="we understand the struggle of transportation with grocieries. weather it is availaibility or lack of resources individuals are able use nutrigo as an advantouges deliverysite tat provides service to any location. you buy your fruits online here and payment for the fruit and the fruit only is quick and easy. Individuals can order between the times of service witch are 11 am  to 6 pm.  " />
 
-							<Button buttonText="Click This Button!"/>
+							<Button buttonText="Nutrition Facts!"/>
 							<div id="list" ></div>
 						</div>,
 					  document.querySelector("#react-container")
 					);
 				</script>
+				
+				<!-- Favour did this -->
+			<section id="footer">
+				<div class="container">
+					<div class="album py-5 bg-light">
+						<div class="container">
 
+				<div class="row">
+						<div class="col-md-4">
+						  <div class="card mb-4 shadow-sm">
+								<div style="
+								height: 250px;
+								width: 600px;
+								background: url('images/broccoli.jpg') no-repeat left;
+								background-size: contain; 
+
+							"></div>
+							<div class="card-body">
+								<p>4lbs</p>
+							  <p class="card-text">Broccoli</p>
+							  <div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+								  <button type="button" class="btn btn-sm btn-outline-secondary">3.99</button>
+								  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+								</div>
+								<small class="text-muted"> item #08965</small>
+							  </div>
+							</div>
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <div class="card mb-4 shadow-sm">
+								<div style="
+								height: 250px;
+								width: 900px;
+								background: url('images/banana.jpg') no-repeat left;
+								background-size: contain; 
+
+							"></div>
+							<div class="card-body">
+								<p> 7lbs</p>
+							  <p class="card-text">Bananas</p>
+							  <div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+								  <button type="button" class="btn btn-sm btn-outline-secondary">4.99</button>
+								  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+								</div>
+								<small class="text-muted">item #7817629</small>
+							  </div>
+							</div>
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <div class="card mb-4 shadow-sm">
+
+							<div style="
+								height: 250px;
+								width: 600px;
+								background: url('images/apple.jpg') no-repeat left;
+								background-size: contain; 
+
+							"></div>
+													
+							<div class="card-body">
+								<p>5lbs</p>
+							  <p class="card-text">Cortland Apples</p>
+							  <div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+								  <button type="button" class="btn btn-sm btn-outline-secondary">$3.99</button>
+								  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+								</div>
+								<small class="text-muted">item #56245</small>
+							  </div>
+							</div>
+						  </div>
+						</div>
+				
+						
+						<div class="col-md-4">
+					
+						  <div class="card mb-4 shadow-sm">
+								<div style="
+								height: 250px;
+								width: 900px;
+								background: url('images/carrots.jpg') no-repeat left;
+								background-size: contain; 
+
+							"></div>
+							<div class="card-body">
+								<p> 6lbs</p>
+							  <p class="card-text">Carrots</p>
+							  <div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+								  <button type="button" class="btn btn-sm btn-outline-secondary">5.99</button>
+								  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+								</div>
+								<small class="text-muted">#75890</small>
+							  </div>
+							</div>
+						  </div>
+						</div>
+						
+			</section>
+				</div>
+				<!-- Favour added above -->
+<!-- 
+				<section id="footer">
+						<div class="container">
+							<header>
+								<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+							</header>
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<section>
+										<form method="post" action="#">
+											<div class="row gtr-50">
+												<div class="col-6 col-12-small">
+													<input name="name" placeholder="Name" type="text" />
+												</div>
+												<div class="col-6 col-12-small">
+													<input name="email" placeholder="Email" type="text" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" placeholder="Message"></textarea>
+												</div>
+												<div class="col-12">
+													<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+												</div>
+											</div>
+										</form>
+									</section>
+								</div>
+								<div class="col-6 col-12-medium">
+									<section>
+										<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
+										mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
+										leo nibh, rutrum eu malesuada.</p>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<ul class="icons">
+													<li class="icon fa-home">
+														1234 Somewhere Road<br />
+														<br />
+														
+													</li>
+													<li class="icon fa-phone">
+														(000) 000-0000
+													</li>
+													<li class="icon fa-envelope">
+														<a href="#">info@untitled.tld</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-small">
+												<ul class="icons">
+													<li class="icon fa-twitter">
+														<a href="#">@untitled</a>
+													</li>
+													<li class="icon fa-instagram">
+														<a href="#">instagram.com/untitled</a>
+													</li>
+													<li class="icon fa-dribbble">
+														<a href="#">dribbble.com/untitled</a>
+													</li>
+													<li class="icon fa-facebook">
+														<a href="#">facebook.com/untitled</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>-->
 			<!-- Footer -->
 				
 
